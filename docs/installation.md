@@ -10,7 +10,7 @@ Version: 1.0
 
 The GA4GH Federated Analysis PoC will be coordinated from the Stratified Medicine Scotland Innovation Centre using one of the analytical workspaces within the AnalytiXagility platform, which will provide the coordination hub connecting to the other reference implementation sites.
 
-    > AnalytixAgility is Aridhia’s platform for performing collaborative and scalable analytics in an IG compliant framework. Users are given access to secure workspaces to enable them to access authorised datasets and workfiles. 
+AnalytixAgility is Aridhia’s platform for performing collaborative and scalable analytics in an IG compliant framework. Users are given access to secure workspaces to enable them to access authorised datasets and workfiles. 
 
 The aims and objectives of this federated analysis proof of concept are detailed below; in the first instance we aim to do enough to understand the API, installation and possible issues with a coordinated analytical effort. We'll be using an R script deployed to AnalytiXagility to access the VCF data stored at each of the sites running the reference implementation API. The VCF data will be stored in native form, however the API requires a folder structure to be obeyed as detailed below in this document. We aim to simulate a real world scenario by taking a realistic analysis script and using the federated services to accumulate and analyse the data centrally. The data will be accessed via the GA4GH server API at each of the test sites, providing a unified means of accessing VCF data and transferring the data back to the workspace, where further analysis, storage and visualisation can occur.
 
@@ -35,9 +35,11 @@ More specific installation details of the GA4GH API and also reference data are 
 
 ## System Requirements
 
+--------------- ------- ----------------------------------------------- --------
 Minimum         RAM     Disk space                                      OS 
 --------------- ------- ----------------------------------------------- --------
 GA4GH Server    2GB     Sufficient disk space to handle the VCF data    Linux 
+--------------- ------- ----------------------------------------------- --------
 
 Note that in production, you may wish to separate different parts of the stack. This recommendation is for a 
 
