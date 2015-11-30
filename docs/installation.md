@@ -1,5 +1,3 @@
-# GLOBAL ALLIANCE FOR GENOMIC HEALTH API
-
 ## Installation and setup instructions for reference implementation sites
 
 Document author: Daniel Thornton, Aridhia Informatics
