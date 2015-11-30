@@ -8,13 +8,21 @@ This project collects a number of utilities related to the 'Federated Analysis P
 
 This package of scripts has been tested on CentOS Linux (version 6.x). Current requirements are:
 
+For the scripts to download and configure sample data:
+
 - Linux CentOS6 2.6.32-573.7.1 or compatible. (try ```uname -a```)
 - bash 4.1.2(1)-release
 - bcftools 1.2 Using htslib 1.2.1
 
+For the server requirements:
+
+- Python 2.7
+- Additional standard packages such as zlib-dev openssl-devel bzip2-devel gcc 
+- the software for the GA4GH server
+
 # Working Notes
 
-The structure of the projects files is:
+The structure of the project's files is:
 
 - 'samples_script' - scripts for preparing sample data for the tet/
 - 'test_script' - the script
@@ -64,7 +72,7 @@ The following procedure sets up the subset sample for a given list of sample ids
 
 The PoC will use the GA4GH [reference implementation server](https://github.com/ga4gh/server). Additional documentation is available on [github](https://github.com/ga4gh/server) and at the project's [documentation pages](http://ga4gh-reference-implementation.readthedocs.org/en/develop)
 
-TODO - See instructions in the 'setup' folder when ready
+For detailed instructions see the [installation notes](docs/installation.md)
 
 # Running the test script
 
