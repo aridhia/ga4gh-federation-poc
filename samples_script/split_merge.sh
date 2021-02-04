@@ -27,7 +27,7 @@ else
         echo "$(now) $sample_id - Start Processing ..."
 
         # for each chromosome
-        for vcf_file in `ls /OpenDataArea/tmp-ga4gh-storage/*.vcf.gz`; do
+        for vcf_file in `ls $STORAGE_FOLDER/*.vcf.gz`; do
             chr=`basename $vcf_file | cut -d'.' -f1`
 
             vcf_per_chr_file="extract-$sample_id-$chr.vcf"
