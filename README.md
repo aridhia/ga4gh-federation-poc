@@ -10,9 +10,19 @@ This package of scripts has been tested on CentOS Linux (version 6.x). Current r
 
 For the scripts to download and configure sample data:
 
-- Linux CentOS6 2.6.32-573.7.1 or compatible. (try ```uname -a```)
-- bash 4.1.2(1)-release
-- bcftools 1.2 Using htslib 1.2.1
+- Linux and bash
+- bcftools, samtools and tabix
+
+On Ubuntu linux:
+```sh
+sudo apt install bcftools samtools tabix
+```
+
+Run recently with:
+
+- bcftools 1.7, Using htslib 1.7-2
+- tabix (htslib) 1.7-2
+- samtools 1.7, Using htslib 1.7-2
 
 For the server requirements:
 
