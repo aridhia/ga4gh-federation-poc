@@ -3,7 +3,8 @@
 # Use this script to download samples
 #
 INPUT_FILE_URL_LIST=1000genomes-urls.txt
-STORAGE_FOLDER=/OpenDataArea/tmp-ga4gh-storage
+# STORAGE_FOLDER=/OpenDataArea/tmp-ga4gh-storage
+STORAGE_FOLDER=/datadrive0/ga4gh/tmp-output
 
 now() {
     date +%Y%m%d%H%M%S
